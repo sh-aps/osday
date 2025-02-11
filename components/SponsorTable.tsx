@@ -73,6 +73,16 @@ const supporterSponsor: Sponsor[] = [
   }
 ]
 
+const extraSponsors: Sponsor[] = [
+  {
+    alt: "Comune Firenze",
+    href: "https://www.comune.fi.it/",
+    src: "/patrocinio_firenze.png",
+    width: 100,
+    height: 100 
+  }
+]
+
 interface SponsorTier {
   name: string;
   sponsors: Sponsor[];
@@ -94,6 +104,10 @@ const sponsorTiers: SponsorTier[] = [
   {
     name: "Community",
     sponsors: communitySponsors
+  },
+  {
+      name: "Patronage",
+      sponsors: extraSponsors
   }
 ];
 
