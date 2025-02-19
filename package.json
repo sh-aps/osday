@@ -80,6 +80,9 @@
     "initVersion": "7.38.1"
   },
   "packageManager": "npm@10.5.0",
+  "engines": {
+    "node": ">=20"
+  },
   "overrides": {
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3"
